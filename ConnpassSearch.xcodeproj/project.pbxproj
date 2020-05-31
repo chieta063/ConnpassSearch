@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		994F00572483B8420032930C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00562483B8420032930C /* AppDelegate.swift */; };
+		994F00592483B8420032930C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00582483B8420032930C /* SceneDelegate.swift */; };
+		994F005B2483B8420032930C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F005A2483B8420032930C /* ContentView.swift */; };
+		994F005D2483B8430032930C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F005C2483B8430032930C /* Assets.xcassets */; };
+		994F00602483B8430032930C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F005F2483B8430032930C /* Preview Assets.xcassets */; };
+		994F00632483B8430032930C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994F00612483B8430032930C /* LaunchScreen.storyboard */; };
+		994F006E2483B8430032930C /* ConnpassSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F006D2483B8430032930C /* ConnpassSearchTests.swift */; };
+		994F00792483B8430032930C /* ConnpassSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00782483B8430032930C /* ConnpassSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		994F006A2483B8430032930C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994F004B2483B8420032930C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994F00522483B8420032930C;
+			remoteInfo = ConnpassSearch;
+		};
+		994F00752483B8430032930C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 994F004B2483B8420032930C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 994F00522483B8420032930C;
+			remoteInfo = ConnpassSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		994F00532483B8420032930C /* ConnpassSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		994F00562483B8420032930C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		994F00582483B8420032930C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		994F005A2483B8420032930C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		994F005C2483B8430032930C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994F005F2483B8430032930C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		994F00622483B8430032930C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		994F00642483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994F00692483B8430032930C /* ConnpassSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnpassSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994F006D2483B8430032930C /* ConnpassSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchTests.swift; sourceTree = "<group>"; };
+		994F006F2483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994F00742483B8430032930C /* ConnpassSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnpassSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		994F00782483B8430032930C /* ConnpassSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchUITests.swift; sourceTree = "<group>"; };
+		994F007A2483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		994F00502483B8420032930C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00662483B8430032930C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00712483B8430032930C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		994F004A2483B8420032930C = {
+			isa = PBXGroup;
+			children = (
+				994F00552483B8420032930C /* ConnpassSearch */,
+				994F006C2483B8430032930C /* ConnpassSearchTests */,
+				994F00772483B8430032930C /* ConnpassSearchUITests */,
+				994F00542483B8420032930C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		994F00542483B8420032930C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994F00532483B8420032930C /* ConnpassSearch.app */,
+				994F00692483B8430032930C /* ConnpassSearchTests.xctest */,
+				994F00742483B8430032930C /* ConnpassSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		994F00552483B8420032930C /* ConnpassSearch */ = {
+			isa = PBXGroup;
+			children = (
+				994F00562483B8420032930C /* AppDelegate.swift */,
+				994F00582483B8420032930C /* SceneDelegate.swift */,
+				994F005A2483B8420032930C /* ContentView.swift */,
+				994F005C2483B8430032930C /* Assets.xcassets */,
+				994F00612483B8430032930C /* LaunchScreen.storyboard */,
+				994F00642483B8430032930C /* Info.plist */,
+				994F005E2483B8430032930C /* Preview Content */,
+			);
+			path = ConnpassSearch;
+			sourceTree = "<group>";
+		};
+		994F005E2483B8430032930C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				994F005F2483B8430032930C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		994F006C2483B8430032930C /* ConnpassSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				994F006D2483B8430032930C /* ConnpassSearchTests.swift */,
+				994F006F2483B8430032930C /* Info.plist */,
+			);
+			path = ConnpassSearchTests;
+			sourceTree = "<group>";
+		};
+		994F00772483B8430032930C /* ConnpassSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				994F00782483B8430032930C /* ConnpassSearchUITests.swift */,
+				994F007A2483B8430032930C /* Info.plist */,
+			);
+			path = ConnpassSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		994F00522483B8420032930C /* ConnpassSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994F007D2483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearch" */;
+			buildPhases = (
+				994F004F2483B8420032930C /* Sources */,
+				994F00502483B8420032930C /* Frameworks */,
+				994F00512483B8420032930C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnpassSearch;
+			productName = ConnpassSearch;
+			productReference = 994F00532483B8420032930C /* ConnpassSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		994F00682483B8430032930C /* ConnpassSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994F00802483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchTests" */;
+			buildPhases = (
+				994F00652483B8430032930C /* Sources */,
+				994F00662483B8430032930C /* Frameworks */,
+				994F00672483B8430032930C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994F006B2483B8430032930C /* PBXTargetDependency */,
+			);
+			name = ConnpassSearchTests;
+			productName = ConnpassSearchTests;
+			productReference = 994F00692483B8430032930C /* ConnpassSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		994F00732483B8430032930C /* ConnpassSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994F00832483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchUITests" */;
+			buildPhases = (
+				994F00702483B8430032930C /* Sources */,
+				994F00712483B8430032930C /* Frameworks */,
+				994F00722483B8430032930C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				994F00762483B8430032930C /* PBXTargetDependency */,
+			);
+			name = ConnpassSearchUITests;
+			productName = ConnpassSearchUITests;
+			productReference = 994F00742483B8430032930C /* ConnpassSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		994F004B2483B8420032930C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "阿部紘明";
+				TargetAttributes = {
+					994F00522483B8420032930C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					994F00682483B8430032930C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 994F00522483B8420032930C;
+					};
+					994F00732483B8430032930C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 994F00522483B8420032930C;
+					};
+				};
+			};
+			buildConfigurationList = 994F004E2483B8420032930C /* Build configuration list for PBXProject "ConnpassSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 994F004A2483B8420032930C;
+			productRefGroup = 994F00542483B8420032930C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				994F00522483B8420032930C /* ConnpassSearch */,
+				994F00682483B8430032930C /* ConnpassSearchTests */,
+				994F00732483B8430032930C /* ConnpassSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		994F00512483B8420032930C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994F00632483B8430032930C /* LaunchScreen.storyboard in Resources */,
+				994F00602483B8430032930C /* Preview Assets.xcassets in Resources */,
+				994F005D2483B8430032930C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00672483B8430032930C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00722483B8430032930C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		994F004F2483B8420032930C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994F00572483B8420032930C /* AppDelegate.swift in Sources */,
+				994F00592483B8420032930C /* SceneDelegate.swift in Sources */,
+				994F005B2483B8420032930C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00652483B8430032930C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994F006E2483B8430032930C /* ConnpassSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994F00702483B8430032930C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994F00792483B8430032930C /* ConnpassSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		994F006B2483B8430032930C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994F00522483B8420032930C /* ConnpassSearch */;
+			targetProxy = 994F006A2483B8430032930C /* PBXContainerItemProxy */;
+		};
+		994F00762483B8430032930C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 994F00522483B8420032930C /* ConnpassSearch */;
+			targetProxy = 994F00752483B8430032930C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		994F00612483B8430032930C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				994F00622483B8430032930C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		994F007B2483B8430032930C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		994F007C2483B8430032930C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		994F007E2483B8430032930C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ConnpassSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ConnpassSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		994F007F2483B8430032930C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ConnpassSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ConnpassSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		994F00812483B8430032930C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				INFOPLIST_FILE = ConnpassSearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnpassSearch.app/ConnpassSearch";
+			};
+			name = Debug;
+		};
+		994F00822483B8430032930C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				INFOPLIST_FILE = ConnpassSearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnpassSearch.app/ConnpassSearch";
+			};
+			name = Release;
+		};
+		994F00842483B8430032930C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				INFOPLIST_FILE = ConnpassSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnpassSearch;
+			};
+			name = Debug;
+		};
+		994F00852483B8430032930C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				INFOPLIST_FILE = ConnpassSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroaki.ConnpassSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConnpassSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		994F004E2483B8420032930C /* Build configuration list for PBXProject "ConnpassSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994F007B2483B8430032930C /* Debug */,
+				994F007C2483B8430032930C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994F007D2483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994F007E2483B8430032930C /* Debug */,
+				994F007F2483B8430032930C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994F00802483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994F00812483B8430032930C /* Debug */,
+				994F00822483B8430032930C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994F00832483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				994F00842483B8430032930C /* Debug */,
+				994F00852483B8430032930C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 994F004B2483B8420032930C /* Project object */;
+}

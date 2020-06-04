@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994E320C2486C15C00F9A45B /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320B2486C15C00F9A45B /* EventInfoView.swift */; };
+		994E320F2486C5E000F9A45B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320E2486C5E000F9A45B /* Date.swift */; };
+		994E32112486CA0100F9A45B /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E32102486CA0100F9A45B /* URLView.swift */; };
+		994E32132486D09400F9A45B /* EventDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E32122486D09400F9A45B /* EventDescriptionView.swift */; };
+		994E32152486D10300F9A45B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E32142486D10300F9A45B /* TextView.swift */; };
 		994F00572483B8420032930C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00562483B8420032930C /* AppDelegate.swift */; };
 		994F00592483B8420032930C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00582483B8420032930C /* SceneDelegate.swift */; };
-		994F005B2483B8420032930C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F005A2483B8420032930C /* ContentView.swift */; };
+		994F005B2483B8420032930C /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F005A2483B8420032930C /* TopView.swift */; };
 		994F005D2483B8430032930C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F005C2483B8430032930C /* Assets.xcassets */; };
 		994F00602483B8430032930C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F005F2483B8430032930C /* Preview Assets.xcassets */; };
 		994F00632483B8430032930C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994F00612483B8430032930C /* LaunchScreen.storyboard */; };
 		994F006E2483B8430032930C /* ConnpassSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F006D2483B8430032930C /* ConnpassSearchTests.swift */; };
 		994F00792483B8430032930C /* ConnpassSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00782483B8430032930C /* ConnpassSearchUITests.swift */; };
+		994F00892483C51B0032930C /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00882483C51B0032930C /* EventRowView.swift */; };
+		998185042486B5B2001020CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185032486B5B2001020CC /* MapView.swift */; };
+		998185062486BA4F001020CC /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185052486BA4F001020CC /* EventDetailView.swift */; };
+		99892272248542EB00A6DDD4 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99892271248542EB00A6DDD4 /* TopViewModel.swift */; };
+		998922742485437C00A6DDD4 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922732485437C00A6DDD4 /* SearchModel.swift */; };
+		99892276248543E400A6DDD4 /* searchresult.json in Resources */ = {isa = PBXBuildFile; fileRef = 99892275248543E400A6DDD4 /* searchresult.json */; };
+		998922782485443100A6DDD4 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922772485443100A6DDD4 /* EventData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		994E320B2486C15C00F9A45B /* EventInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoView.swift; sourceTree = "<group>"; };
+		994E320E2486C5E000F9A45B /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		994E32102486CA0100F9A45B /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
+		994E32122486D09400F9A45B /* EventDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescriptionView.swift; sourceTree = "<group>"; };
+		994E32142486D10300F9A45B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		994F00532483B8420032930C /* ConnpassSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F00562483B8420032930C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		994F00582483B8420032930C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		994F005A2483B8420032930C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		994F005A2483B8420032930C /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		994F005C2483B8430032930C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		994F005F2483B8430032930C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		994F00622483B8430032930C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		994F00742483B8430032930C /* ConnpassSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnpassSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F00782483B8430032930C /* ConnpassSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchUITests.swift; sourceTree = "<group>"; };
 		994F007A2483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994F00882483C51B0032930C /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		998185032486B5B2001020CC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		998185052486BA4F001020CC /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		99892271248542EB00A6DDD4 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		998922732485437C00A6DDD4 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		99892275248543E400A6DDD4 /* searchresult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = searchresult.json; path = ../../../Documents/ConnpassSearch/searchresult.json; sourceTree = "<group>"; };
+		998922772485443100A6DDD4 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990D58BD2486A68A00118B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				998185052486BA4F001020CC /* EventDetailView.swift */,
+				994E320B2486C15C00F9A45B /* EventInfoView.swift */,
+				994F00882483C51B0032930C /* EventRowView.swift */,
+				998185032486B5B2001020CC /* MapView.swift */,
+				994F005A2483B8420032930C /* TopView.swift */,
+				994E32102486CA0100F9A45B /* URLView.swift */,
+				994E32122486D09400F9A45B /* EventDescriptionView.swift */,
+				994E32142486D10300F9A45B /* TextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		990D58BE2486A69100118B67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99892271248542EB00A6DDD4 /* TopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		990D58BF2486A69900118B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				998922732485437C00A6DDD4 /* SearchModel.swift */,
+				998922772485443100A6DDD4 /* EventData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		994E320D2486C5CF00F9A45B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				994E320E2486C5E000F9A45B /* Date.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		994F004A2483B8420032930C = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +163,16 @@
 		994F00552483B8420032930C /* ConnpassSearch */ = {
 			isa = PBXGroup;
 			children = (
+				994E320D2486C5CF00F9A45B /* util */,
+				990D58BF2486A69900118B67 /* Model */,
+				990D58BE2486A69100118B67 /* ViewModel */,
+				990D58BD2486A68A00118B67 /* View */,
 				994F00562483B8420032930C /* AppDelegate.swift */,
 				994F00582483B8420032930C /* SceneDelegate.swift */,
-				994F005A2483B8420032930C /* ContentView.swift */,
 				994F005C2483B8430032930C /* Assets.xcassets */,
 				994F00612483B8430032930C /* LaunchScreen.storyboard */,
 				994F00642483B8430032930C /* Info.plist */,
+				99892275248543E400A6DDD4 /* searchresult.json */,
 				994F005E2483B8430032930C /* Preview Content */,
 			);
 			path = ConnpassSearch;
@@ -242,6 +310,7 @@
 			files = (
 				994F00632483B8430032930C /* LaunchScreen.storyboard in Resources */,
 				994F00602483B8430032930C /* Preview Assets.xcassets in Resources */,
+				99892276248543E400A6DDD4 /* searchresult.json in Resources */,
 				994F005D2483B8430032930C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +337,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				994F00572483B8420032930C /* AppDelegate.swift in Sources */,
+				99892272248542EB00A6DDD4 /* TopViewModel.swift in Sources */,
+				994E32112486CA0100F9A45B /* URLView.swift in Sources */,
 				994F00592483B8420032930C /* SceneDelegate.swift in Sources */,
-				994F005B2483B8420032930C /* ContentView.swift in Sources */,
+				998922742485437C00A6DDD4 /* SearchModel.swift in Sources */,
+				994E32132486D09400F9A45B /* EventDescriptionView.swift in Sources */,
+				994F005B2483B8420032930C /* TopView.swift in Sources */,
+				998185062486BA4F001020CC /* EventDetailView.swift in Sources */,
+				994E32152486D10300F9A45B /* TextView.swift in Sources */,
+				994E320F2486C5E000F9A45B /* Date.swift in Sources */,
+				998922782485443100A6DDD4 /* EventData.swift in Sources */,
+				998185042486B5B2001020CC /* MapView.swift in Sources */,
+				994F00892483C51B0032930C /* EventRowView.swift in Sources */,
+				994E320C2486C15C00F9A45B /* EventInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

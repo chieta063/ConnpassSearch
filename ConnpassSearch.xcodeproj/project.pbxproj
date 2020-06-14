@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E988E68915C73EA1E9B8F62 /* Pods_ConnpassSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */; };
+		715BDA5BFC8047725CFA1C96 /* Pods_ConnpassSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */; };
 		994E320C2486C15C00F9A45B /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320B2486C15C00F9A45B /* EventInfoView.swift */; };
 		994E320F2486C5E000F9A45B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320E2486C5E000F9A45B /* Date.swift */; };
 		994E32112486CA0100F9A45B /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E32102486CA0100F9A45B /* URLView.swift */; };
@@ -21,12 +23,33 @@
 		994F006E2483B8430032930C /* ConnpassSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F006D2483B8430032930C /* ConnpassSearchTests.swift */; };
 		994F00792483B8430032930C /* ConnpassSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00782483B8430032930C /* ConnpassSearchUITests.swift */; };
 		994F00892483C51B0032930C /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00882483C51B0032930C /* EventRowView.swift */; };
+		9951719B24962FF5000CC7E2 /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951719A24962FF5000CC7E2 /* ResultData.swift */; };
+		99757B1C248A84130086FC32 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B1B248A84120086FC32 /* Moya.framework */; };
+		99757B1D248A84130086FC32 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B1B248A84120086FC32 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B22248A845C0086FC32 /* SearchEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99757B21248A845C0086FC32 /* SearchEventAPI.swift */; };
+		99757B2C248A8B3D0086FC32 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */; };
+		99757B2D248A8B3D0086FC32 /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B2E248A8B3D0086FC32 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B24248A8B3C0086FC32 /* RxRelay.framework */; };
+		99757B2F248A8B3D0086FC32 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B24248A8B3C0086FC32 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B30248A8B3D0086FC32 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B25248A8B3C0086FC32 /* RxMoya.framework */; };
+		99757B31248A8B3D0086FC32 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B25248A8B3C0086FC32 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B32248A8B3D0086FC32 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B26248A8B3C0086FC32 /* RxSwift.framework */; };
+		99757B33248A8B3D0086FC32 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B26248A8B3C0086FC32 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B36248A8B3D0086FC32 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B28248A8B3C0086FC32 /* RxCocoa.framework */; };
+		99757B37248A8B3D0086FC32 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B28248A8B3C0086FC32 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B38248A8B3D0086FC32 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B29248A8B3C0086FC32 /* Alamofire.framework */; };
+		99757B39248A8B3D0086FC32 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B29248A8B3C0086FC32 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B3C248A8B3D0086FC32 /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */; };
+		99757B3D248A8B3D0086FC32 /* ReactiveMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99757B3F248A8CF80086FC32 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2A248A8B3D0086FC32 /* RxBlocking.framework */; };
+		99757B40248A8CF80086FC32 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B27248A8B3C0086FC32 /* RxTest.framework */; };
 		998185042486B5B2001020CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185032486B5B2001020CC /* MapView.swift */; };
 		998185062486BA4F001020CC /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185052486BA4F001020CC /* EventDetailView.swift */; };
 		99892272248542EB00A6DDD4 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99892271248542EB00A6DDD4 /* TopViewModel.swift */; };
 		998922742485437C00A6DDD4 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922732485437C00A6DDD4 /* SearchModel.swift */; };
 		99892276248543E400A6DDD4 /* searchresult.json in Resources */ = {isa = PBXBuildFile; fileRef = 99892275248543E400A6DDD4 /* searchresult.json */; };
 		998922782485443100A6DDD4 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922772485443100A6DDD4 /* EventData.swift */; };
+		D6D12A04B871E1F86D71F9AC /* Pods_ConnpassSearch_ConnpassSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +69,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		99757B1E248A84130086FC32 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				99757B33248A8B3D0086FC32 /* RxSwift.framework in Embed Frameworks */,
+				99757B3D248A8B3D0086FC32 /* ReactiveMoya.framework in Embed Frameworks */,
+				99757B31248A8B3D0086FC32 /* RxMoya.framework in Embed Frameworks */,
+				99757B37248A8B3D0086FC32 /* RxCocoa.framework in Embed Frameworks */,
+				99757B1D248A84130086FC32 /* Moya.framework in Embed Frameworks */,
+				99757B2D248A8B3D0086FC32 /* ReactiveSwift.framework in Embed Frameworks */,
+				99757B2F248A8B3D0086FC32 /* RxRelay.framework in Embed Frameworks */,
+				99757B39248A8B3D0086FC32 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearch_ConnpassSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch/Pods-ConnpassSearch.release.xcconfig"; sourceTree = "<group>"; };
+		5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch/Pods-ConnpassSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch-ConnpassSearchUITests/Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch-ConnpassSearchUITests/Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearchTests/Pods-ConnpassSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		994E320B2486C15C00F9A45B /* EventInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoView.swift; sourceTree = "<group>"; };
 		994E320E2486C5E000F9A45B /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		994E32102486CA0100F9A45B /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
@@ -67,12 +118,26 @@
 		994F00782483B8430032930C /* ConnpassSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassSearchUITests.swift; sourceTree = "<group>"; };
 		994F007A2483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994F00882483C51B0032930C /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		9951719A24962FF5000CC7E2 /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+		99757B1B248A84120086FC32 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		99757B21248A845C0086FC32 /* SearchEventAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventAPI.swift; sourceTree = "<group>"; };
+		99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		99757B24248A8B3C0086FC32 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		99757B25248A8B3C0086FC32 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		99757B26248A8B3C0086FC32 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		99757B27248A8B3C0086FC32 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		99757B28248A8B3C0086FC32 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		99757B29248A8B3C0086FC32 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		99757B2A248A8B3D0086FC32 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
 		998185032486B5B2001020CC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		998185052486BA4F001020CC /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		99892271248542EB00A6DDD4 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
 		998922732485437C00A6DDD4 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		99892275248543E400A6DDD4 /* searchresult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = searchresult.json; path = ../../../Documents/ConnpassSearch/searchresult.json; sourceTree = "<group>"; };
 		998922772485443100A6DDD4 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearchTests.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearchTests/Pods-ConnpassSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +145,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99757B38248A8B3D0086FC32 /* Alamofire.framework in Frameworks */,
+				99757B30248A8B3D0086FC32 /* RxMoya.framework in Frameworks */,
+				99757B3C248A8B3D0086FC32 /* ReactiveMoya.framework in Frameworks */,
+				99757B2E248A8B3D0086FC32 /* RxRelay.framework in Frameworks */,
+				99757B32248A8B3D0086FC32 /* RxSwift.framework in Frameworks */,
+				99757B36248A8B3D0086FC32 /* RxCocoa.framework in Frameworks */,
+				99757B1C248A84130086FC32 /* Moya.framework in Frameworks */,
+				715BDA5BFC8047725CFA1C96 /* Pods_ConnpassSearch.framework in Frameworks */,
+				99757B2C248A8B3D0086FC32 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +161,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99757B3F248A8CF80086FC32 /* RxBlocking.framework in Frameworks */,
+				99757B40248A8CF80086FC32 /* RxTest.framework in Frameworks */,
+				4E988E68915C73EA1E9B8F62 /* Pods_ConnpassSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +171,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D12A04B871E1F86D71F9AC /* Pods_ConnpassSearch_ConnpassSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0303D6CE6BAEE102E7A979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */,
+				49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */,
+				88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */,
+				59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */,
+				8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */,
+				ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		990D58BD2486A68A00118B67 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +219,7 @@
 			children = (
 				998922732485437C00A6DDD4 /* SearchModel.swift */,
 				998922772485443100A6DDD4 /* EventData.swift */,
+				9951719A24962FF5000CC7E2 /* ResultData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +239,8 @@
 				994F006C2483B8430032930C /* ConnpassSearchTests */,
 				994F00772483B8430032930C /* ConnpassSearchUITests */,
 				994F00542483B8420032930C /* Products */,
+				8B0303D6CE6BAEE102E7A979 /* Pods */,
+				A859197E16009A97B7F7E353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +257,7 @@
 		994F00552483B8420032930C /* ConnpassSearch */ = {
 			isa = PBXGroup;
 			children = (
+				99757B20248A84480086FC32 /* API */,
 				994E320D2486C5CF00F9A45B /* util */,
 				990D58BF2486A69900118B67 /* Model */,
 				990D58BE2486A69100118B67 /* ViewModel */,
@@ -204,6 +299,34 @@
 			path = ConnpassSearchUITests;
 			sourceTree = "<group>";
 		};
+		99757B20248A84480086FC32 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				99757B21248A845C0086FC32 /* SearchEventAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A859197E16009A97B7F7E353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99757B29248A8B3C0086FC32 /* Alamofire.framework */,
+				99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */,
+				99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */,
+				99757B2A248A8B3D0086FC32 /* RxBlocking.framework */,
+				99757B28248A8B3C0086FC32 /* RxCocoa.framework */,
+				99757B25248A8B3C0086FC32 /* RxMoya.framework */,
+				99757B24248A8B3C0086FC32 /* RxRelay.framework */,
+				99757B26248A8B3C0086FC32 /* RxSwift.framework */,
+				99757B27248A8B3C0086FC32 /* RxTest.framework */,
+				99757B1B248A84120086FC32 /* Moya.framework */,
+				69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */,
+				2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */,
+				F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F007D2483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearch" */;
 			buildPhases = (
+				DBC52FA29BABD88452B528F4 /* [CP] Check Pods Manifest.lock */,
 				994F004F2483B8420032930C /* Sources */,
 				994F00502483B8420032930C /* Frameworks */,
 				994F00512483B8420032930C /* Resources */,
+				99757B1A248A83960086FC32 /* Carthage */,
+				99757B1E248A84130086FC32 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,8 +354,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F00802483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchTests" */;
 			buildPhases = (
+				CAFBF04257DFCF4BAD134784 /* [CP] Check Pods Manifest.lock */,
 				994F00652483B8430032930C /* Sources */,
 				994F00662483B8430032930C /* Frameworks */,
+				99757B3E248A8C6F0086FC32 /* Carthage */,
 				994F00672483B8430032930C /* Resources */,
 			);
 			buildRules = (
@@ -246,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F00832483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchUITests" */;
 			buildPhases = (
+				9CF71E8A65F4E08CD5DBC80C /* [CP] Check Pods Manifest.lock */,
 				994F00702483B8430032930C /* Sources */,
 				994F00712483B8430032930C /* Frameworks */,
 				994F00722483B8430032930C /* Resources */,
@@ -331,6 +460,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99757B1A248A83960086FC32 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		99757B3E248A8C6F0086FC32 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		9CF71E8A65F4E08CD5DBC80C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearch-ConnpassSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAFBF04257DFCF4BAD134784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC52FA29BABD88452B528F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		994F004F2483B8420032930C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -340,6 +584,8 @@
 				99892272248542EB00A6DDD4 /* TopViewModel.swift in Sources */,
 				994E32112486CA0100F9A45B /* URLView.swift in Sources */,
 				994F00592483B8420032930C /* SceneDelegate.swift in Sources */,
+				9951719B24962FF5000CC7E2 /* ResultData.swift in Sources */,
+				99757B22248A845C0086FC32 /* SearchEventAPI.swift in Sources */,
 				998922742485437C00A6DDD4 /* SearchModel.swift in Sources */,
 				994E32132486D09400F9A45B /* EventDescriptionView.swift in Sources */,
 				994F005B2483B8420032930C /* TopView.swift in Sources */,
@@ -512,12 +758,17 @@
 		};
 		994F007E2483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnpassSearch/Preview Content\"";
 				DEVELOPMENT_TEAM = 7WXLBJVR7R;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,12 +783,17 @@
 		};
 		994F007F2483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnpassSearch/Preview Content\"";
 				DEVELOPMENT_TEAM = 7WXLBJVR7R;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,11 +808,16 @@
 		};
 		994F00812483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassSearchTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -574,11 +835,16 @@
 		};
 		994F00822483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WXLBJVR7R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConnpassSearchTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +862,7 @@
 		};
 		994F00842483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +883,7 @@
 		};
 		994F00852483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

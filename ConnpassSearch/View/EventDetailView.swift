@@ -19,7 +19,7 @@ struct EventDetailView: View {
     
     var body: some View {
         VStack {
-            MapView(coordinate: .init(latitude: event.lat, longitude: event.lon))
+            MapView(coordinate: .init(latitude: event.lat ?? 43.094170, longitude: event.lon ?? 141.283174))
                 .frame(height: 200)
             EventInfoView(titleType: .dateTime, info: eventDateString)
             EventInfoView(titleType: .place, info: event.address)

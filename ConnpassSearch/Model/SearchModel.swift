@@ -7,20 +7,32 @@
 //
 
 import Foundation
+import Moya
+import RxMoya
+import RxSwift
 
 class SearchModel {
-    func search(with keyword: String, completion: (Result<[EventData], Error>) -> Void) {
+    let provider = MoyaProvider<SearchEventAPI>()
+    
+    func search(with keyword: String) -> Single<[EventData]> {
+        provider.rx.request(.search(keyword: keyword))
+            .flatMap { response -> Single<[EventData]> in
+                let result = try JSONDecoder().decode(ResultData.self, from: response.data)
+                return .just(result.events)
+            }
+    }
+    
+    func getStub() -> Single<[EventData]> {
         guard let json = Bundle.main.url(forResource: "searchresult.json", withExtension: nil) else {
-            return
+            return .never()
         }
         do {
             let data = try Data(contentsOf: json)
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
-            let events = try decoder.decode([EventData].self, from: data)
-            completion(.success(events))
+            return .just(try decoder.decode([EventData].self, from: data))
         } catch (let error) {
-            completion(.failure(error))
+            return .error(error)
         }
     }
 }

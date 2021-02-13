@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,31 +24,18 @@
 		994F00792483B8430032930C /* ConnpassSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00782483B8430032930C /* ConnpassSearchUITests.swift */; };
 		994F00892483C51B0032930C /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F00882483C51B0032930C /* EventRowView.swift */; };
 		9951719B24962FF5000CC7E2 /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9951719A24962FF5000CC7E2 /* ResultData.swift */; };
-		99757B1C248A84130086FC32 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B1B248A84120086FC32 /* Moya.framework */; };
-		99757B1D248A84130086FC32 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B1B248A84120086FC32 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		99757B22248A845C0086FC32 /* SearchEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99757B21248A845C0086FC32 /* SearchEventAPI.swift */; };
-		99757B2C248A8B3D0086FC32 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */; };
-		99757B2D248A8B3D0086FC32 /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B2E248A8B3D0086FC32 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B24248A8B3C0086FC32 /* RxRelay.framework */; };
-		99757B2F248A8B3D0086FC32 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B24248A8B3C0086FC32 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B30248A8B3D0086FC32 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B25248A8B3C0086FC32 /* RxMoya.framework */; };
-		99757B31248A8B3D0086FC32 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B25248A8B3C0086FC32 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B32248A8B3D0086FC32 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B26248A8B3C0086FC32 /* RxSwift.framework */; };
-		99757B33248A8B3D0086FC32 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B26248A8B3C0086FC32 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B36248A8B3D0086FC32 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B28248A8B3C0086FC32 /* RxCocoa.framework */; };
-		99757B37248A8B3D0086FC32 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B28248A8B3C0086FC32 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B38248A8B3D0086FC32 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B29248A8B3C0086FC32 /* Alamofire.framework */; };
-		99757B39248A8B3D0086FC32 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B29248A8B3C0086FC32 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B3C248A8B3D0086FC32 /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */; };
-		99757B3D248A8B3D0086FC32 /* ReactiveMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		99757B3F248A8CF80086FC32 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B2A248A8B3D0086FC32 /* RxBlocking.framework */; };
-		99757B40248A8CF80086FC32 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99757B27248A8B3C0086FC32 /* RxTest.framework */; };
 		998185042486B5B2001020CC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185032486B5B2001020CC /* MapView.swift */; };
 		998185062486BA4F001020CC /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998185052486BA4F001020CC /* EventDetailView.swift */; };
 		99892272248542EB00A6DDD4 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99892271248542EB00A6DDD4 /* TopViewModel.swift */; };
 		998922742485437C00A6DDD4 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922732485437C00A6DDD4 /* SearchModel.swift */; };
-		99892276248543E400A6DDD4 /* searchresult.json in Resources */ = {isa = PBXBuildFile; fileRef = 99892275248543E400A6DDD4 /* searchresult.json */; };
 		998922782485443100A6DDD4 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998922772485443100A6DDD4 /* EventData.swift */; };
+		99BFFAA6252215E1008ED0D1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAA5252215E1008ED0D1 /* RxSwift */; };
+		99BFFAAA252215E1008ED0D1 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAA9252215E1008ED0D1 /* RxRelay */; };
+		99BFFAAC252215E1008ED0D1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAAB252215E1008ED0D1 /* RxCocoa */; };
+		99BFFAC225221648008ED0D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC125221648008ED0D1 /* Moya */; };
+		99BFFAC425221648008ED0D1 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC325221648008ED0D1 /* ReactiveMoya */; };
+		99BFFAC625221648008ED0D1 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC525221648008ED0D1 /* RxMoya */; };
 		D6D12A04B871E1F86D71F9AC /* Pods_ConnpassSearch_ConnpassSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,27 +55,6 @@
 			remoteInfo = ConnpassSearch;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		99757B1E248A84130086FC32 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				99757B33248A8B3D0086FC32 /* RxSwift.framework in Embed Frameworks */,
-				99757B3D248A8B3D0086FC32 /* ReactiveMoya.framework in Embed Frameworks */,
-				99757B31248A8B3D0086FC32 /* RxMoya.framework in Embed Frameworks */,
-				99757B37248A8B3D0086FC32 /* RxCocoa.framework in Embed Frameworks */,
-				99757B1D248A84130086FC32 /* Moya.framework in Embed Frameworks */,
-				99757B2D248A8B3D0086FC32 /* ReactiveSwift.framework in Embed Frameworks */,
-				99757B2F248A8B3D0086FC32 /* RxRelay.framework in Embed Frameworks */,
-				99757B39248A8B3D0086FC32 /* Alamofire.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearch_ConnpassSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,22 +85,11 @@
 		994F007A2483B8430032930C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994F00882483C51B0032930C /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
 		9951719A24962FF5000CC7E2 /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
-		99757B1B248A84120086FC32 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		99757B21248A845C0086FC32 /* SearchEventAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEventAPI.swift; sourceTree = "<group>"; };
-		99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
-		99757B24248A8B3C0086FC32 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
-		99757B25248A8B3C0086FC32 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
-		99757B26248A8B3C0086FC32 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		99757B27248A8B3C0086FC32 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		99757B28248A8B3C0086FC32 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		99757B29248A8B3C0086FC32 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		99757B2A248A8B3D0086FC32 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
 		998185032486B5B2001020CC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		998185052486BA4F001020CC /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		99892271248542EB00A6DDD4 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
 		998922732485437C00A6DDD4 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
-		99892275248543E400A6DDD4 /* searchresult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = searchresult.json; path = ../../../Documents/ConnpassSearch/searchresult.json; sourceTree = "<group>"; };
 		998922772485443100A6DDD4 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearchTests.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearchTests/Pods-ConnpassSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,15 +100,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99757B38248A8B3D0086FC32 /* Alamofire.framework in Frameworks */,
-				99757B30248A8B3D0086FC32 /* RxMoya.framework in Frameworks */,
-				99757B3C248A8B3D0086FC32 /* ReactiveMoya.framework in Frameworks */,
-				99757B2E248A8B3D0086FC32 /* RxRelay.framework in Frameworks */,
-				99757B32248A8B3D0086FC32 /* RxSwift.framework in Frameworks */,
-				99757B36248A8B3D0086FC32 /* RxCocoa.framework in Frameworks */,
-				99757B1C248A84130086FC32 /* Moya.framework in Frameworks */,
+				99BFFAA6252215E1008ED0D1 /* RxSwift in Frameworks */,
+				99BFFAAC252215E1008ED0D1 /* RxCocoa in Frameworks */,
+				99BFFAAA252215E1008ED0D1 /* RxRelay in Frameworks */,
+				99BFFAC425221648008ED0D1 /* ReactiveMoya in Frameworks */,
+				99BFFAC625221648008ED0D1 /* RxMoya in Frameworks */,
+				99BFFAC225221648008ED0D1 /* Moya in Frameworks */,
 				715BDA5BFC8047725CFA1C96 /* Pods_ConnpassSearch.framework in Frameworks */,
-				99757B2C248A8B3D0086FC32 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99757B3F248A8CF80086FC32 /* RxBlocking.framework in Frameworks */,
-				99757B40248A8CF80086FC32 /* RxTest.framework in Frameworks */,
 				4E988E68915C73EA1E9B8F62 /* Pods_ConnpassSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +218,6 @@
 				994F005C2483B8430032930C /* Assets.xcassets */,
 				994F00612483B8430032930C /* LaunchScreen.storyboard */,
 				994F00642483B8430032930C /* Info.plist */,
-				99892275248543E400A6DDD4 /* searchresult.json */,
 				994F005E2483B8430032930C /* Preview Content */,
 			);
 			path = ConnpassSearch;
@@ -310,16 +260,6 @@
 		A859197E16009A97B7F7E353 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99757B29248A8B3C0086FC32 /* Alamofire.framework */,
-				99757B2B248A8B3D0086FC32 /* ReactiveMoya.framework */,
-				99757B23248A8B3C0086FC32 /* ReactiveSwift.framework */,
-				99757B2A248A8B3D0086FC32 /* RxBlocking.framework */,
-				99757B28248A8B3C0086FC32 /* RxCocoa.framework */,
-				99757B25248A8B3C0086FC32 /* RxMoya.framework */,
-				99757B24248A8B3C0086FC32 /* RxRelay.framework */,
-				99757B26248A8B3C0086FC32 /* RxSwift.framework */,
-				99757B27248A8B3C0086FC32 /* RxTest.framework */,
-				99757B1B248A84120086FC32 /* Moya.framework */,
 				69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */,
 				2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */,
 				F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */,
@@ -338,14 +278,20 @@
 				994F004F2483B8420032930C /* Sources */,
 				994F00502483B8420032930C /* Frameworks */,
 				994F00512483B8420032930C /* Resources */,
-				99757B1A248A83960086FC32 /* Carthage */,
-				99757B1E248A84130086FC32 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ConnpassSearch;
+			packageProductDependencies = (
+				99BFFAA5252215E1008ED0D1 /* RxSwift */,
+				99BFFAA9252215E1008ED0D1 /* RxRelay */,
+				99BFFAAB252215E1008ED0D1 /* RxCocoa */,
+				99BFFAC125221648008ED0D1 /* Moya */,
+				99BFFAC325221648008ED0D1 /* ReactiveMoya */,
+				99BFFAC525221648008ED0D1 /* RxMoya */,
+			);
 			productName = ConnpassSearch;
 			productReference = 994F00532483B8420032930C /* ConnpassSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -421,6 +367,10 @@
 				Base,
 			);
 			mainGroup = 994F004A2483B8420032930C;
+			packageReferences = (
+				99BFFA962522155B008ED0D1 /* XCRemoteSwiftPackageReference "Moya" */,
+				99BFFAA4252215E1008ED0D1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 994F00542483B8420032930C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,7 +389,6 @@
 			files = (
 				994F00632483B8430032930C /* LaunchScreen.storyboard in Resources */,
 				994F00602483B8430032930C /* Preview Assets.xcassets in Resources */,
-				99892276248543E400A6DDD4 /* searchresult.json in Resources */,
 				994F005D2483B8430032930C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,32 +410,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		99757B1A248A83960086FC32 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 		99757B3E248A8C6F0086FC32 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -942,6 +865,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99BFFA962522155B008ED0D1 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		99BFFAA4252215E1008ED0D1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99BFFAA5252215E1008ED0D1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFAA4252215E1008ED0D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		99BFFAA9252215E1008ED0D1 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFAA4252215E1008ED0D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		99BFFAAB252215E1008ED0D1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFAA4252215E1008ED0D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		99BFFAC125221648008ED0D1 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFA962522155B008ED0D1 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		99BFFAC325221648008ED0D1 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFA962522155B008ED0D1 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		99BFFAC525221648008ED0D1 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99BFFA962522155B008ED0D1 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 994F004B2483B8420032930C /* Project object */;
 }

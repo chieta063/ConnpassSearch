@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E988E68915C73EA1E9B8F62 /* Pods_ConnpassSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */; };
-		715BDA5BFC8047725CFA1C96 /* Pods_ConnpassSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */; };
 		994E320C2486C15C00F9A45B /* EventInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320B2486C15C00F9A45B /* EventInfoView.swift */; };
 		994E320F2486C5E000F9A45B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E320E2486C5E000F9A45B /* Date.swift */; };
 		994E32112486CA0100F9A45B /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E32102486CA0100F9A45B /* URLView.swift */; };
@@ -36,7 +34,6 @@
 		99BFFAC225221648008ED0D1 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC125221648008ED0D1 /* Moya */; };
 		99BFFAC425221648008ED0D1 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC325221648008ED0D1 /* ReactiveMoya */; };
 		99BFFAC625221648008ED0D1 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 99BFFAC525221648008ED0D1 /* RxMoya */; };
-		D6D12A04B871E1F86D71F9AC /* Pods_ConnpassSearch_ConnpassSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearch_ConnpassSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch/Pods-ConnpassSearch.release.xcconfig"; sourceTree = "<group>"; };
-		5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch/Pods-ConnpassSearch.debug.xcconfig"; sourceTree = "<group>"; };
-		59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch-ConnpassSearchUITests/Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
-		69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearch-ConnpassSearchUITests/Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-ConnpassSearchTests/Pods-ConnpassSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		994E320B2486C15C00F9A45B /* EventInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoView.swift; sourceTree = "<group>"; };
 		994E320E2486C5E000F9A45B /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		994E32102486CA0100F9A45B /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
@@ -91,8 +81,6 @@
 		99892271248542EB00A6DDD4 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
 		998922732485437C00A6DDD4 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		998922772485443100A6DDD4 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
-		ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnpassSearchTests.release.xcconfig"; path = "Target Support Files/Pods-ConnpassSearchTests/Pods-ConnpassSearchTests.release.xcconfig"; sourceTree = "<group>"; };
-		F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnpassSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +94,6 @@
 				99BFFAC425221648008ED0D1 /* ReactiveMoya in Frameworks */,
 				99BFFAC625221648008ED0D1 /* RxMoya in Frameworks */,
 				99BFFAC225221648008ED0D1 /* Moya in Frameworks */,
-				715BDA5BFC8047725CFA1C96 /* Pods_ConnpassSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E988E68915C73EA1E9B8F62 /* Pods_ConnpassSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,26 +108,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D12A04B871E1F86D71F9AC /* Pods_ConnpassSearch_ConnpassSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B0303D6CE6BAEE102E7A979 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */,
-				49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */,
-				88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */,
-				59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */,
-				8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */,
-				ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		990D58BD2486A68A00118B67 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,8 +162,6 @@
 				994F006C2483B8430032930C /* ConnpassSearchTests */,
 				994F00772483B8430032930C /* ConnpassSearchUITests */,
 				994F00542483B8420032930C /* Products */,
-				8B0303D6CE6BAEE102E7A979 /* Pods */,
-				A859197E16009A97B7F7E353 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,16 +227,6 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-		A859197E16009A97B7F7E353 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				69B4D2110930DB549D8C990C /* Pods_ConnpassSearch.framework */,
-				2DDB07183AA4441390F6B93C /* Pods_ConnpassSearch_ConnpassSearchUITests.framework */,
-				F8F6B3F4E9B6AE8C91044AD4 /* Pods_ConnpassSearchTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,7 +234,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F007D2483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearch" */;
 			buildPhases = (
-				DBC52FA29BABD88452B528F4 /* [CP] Check Pods Manifest.lock */,
 				994F004F2483B8420032930C /* Sources */,
 				994F00502483B8420032930C /* Frameworks */,
 				994F00512483B8420032930C /* Resources */,
@@ -300,7 +259,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F00802483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchTests" */;
 			buildPhases = (
-				CAFBF04257DFCF4BAD134784 /* [CP] Check Pods Manifest.lock */,
 				994F00652483B8430032930C /* Sources */,
 				994F00662483B8430032930C /* Frameworks */,
 				99757B3E248A8C6F0086FC32 /* Carthage */,
@@ -320,7 +278,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 994F00832483B8430032930C /* Build configuration list for PBXNativeTarget "ConnpassSearchUITests" */;
 			buildPhases = (
-				9CF71E8A65F4E08CD5DBC80C /* [CP] Check Pods Manifest.lock */,
 				994F00702483B8430032930C /* Sources */,
 				994F00712483B8430032930C /* Frameworks */,
 				994F00722483B8430032930C /* Resources */,
@@ -429,72 +386,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		9CF71E8A65F4E08CD5DBC80C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearch-ConnpassSearchUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CAFBF04257DFCF4BAD134784 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearchTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBC52FA29BABD88452B528F4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ConnpassSearch-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -681,7 +572,6 @@
 		};
 		994F007E2483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5279BAC67F681F55C8135372 /* Pods-ConnpassSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,7 +596,6 @@
 		};
 		994F007F2483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49FBA8CAC43711DE3EC4D495 /* Pods-ConnpassSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -731,7 +620,6 @@
 		};
 		994F00812483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DBD2C9DA7BD3EDE852B723A /* Pods-ConnpassSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -758,7 +646,6 @@
 		};
 		994F00822483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED03F3AFBDCCD1050592B948 /* Pods-ConnpassSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -785,7 +672,6 @@
 		};
 		994F00842483B8430032930C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88B3F59AC26D0F3A1EE270EB /* Pods-ConnpassSearch-ConnpassSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -806,7 +692,6 @@
 		};
 		994F00852483B8430032930C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59C9709B5E7500C0D9EA8958 /* Pods-ConnpassSearch-ConnpassSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
